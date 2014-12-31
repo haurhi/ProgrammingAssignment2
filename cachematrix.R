@@ -1,9 +1,9 @@
 ## Based on the scoping rules of R programming, a separaion of taking and computing 
 ## will be realized in this funciton to save the computation effort.This function 
-## is able to cache the inverse of a matrix if the original one are not changing.
+## is able to cache the inverse of a matrix if the original ones are not changing.
 
 ## A set of functions with setting an original matrix, getting an original matrix,
-## setting the inverse matirx and getting the inverse matrix; 
+## setting the inverse matirx and getting the inverse matrix. 
 
 makeCacheMatrix <- function(x = matrix()) {
     r <- NULL
